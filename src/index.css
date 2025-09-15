@@ -136,8 +136,8 @@
   }
 
   /* Animations */
-  .fade-in {
-    @apply animate-in fade-in duration-700;
+  .fade-in-custom {
+    @apply animate-in slide-in-from-bottom-1 duration-700;
   }
 
   .slide-in-up {
